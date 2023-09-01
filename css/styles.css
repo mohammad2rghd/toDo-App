@@ -1,0 +1,109 @@
+/*public styles*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+/*App styles*/
+.app-wrapper {
+  background-color: #44475a;
+  height: 100vh;
+}
+.main-card {
+  background-color: #6272a4;
+  border-radius: 5px;
+}
+
+.app-header {
+  background-color: #6272a4;
+  border-radius: 5px;
+  color: #f8f8f2;
+}
+.app-header i {
+  font-size: 34px;
+}
+.add-toDo {
+  background: #bd93f9;
+  color: #f8f8f2;
+  border-radius: 5px;
+  padding: 5px 5px;
+  transition: 0.3s;
+  border: 1px solid #44475a;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+.add-toDo:hover {
+  background: #4d3d92;
+  color: #fff;
+  border: 1px solid #44475a;
+}
+.todo-container {
+  background-color: #f3f6fb;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.modal-content {
+  background-color: #f8f8f2;
+}
+
+.table.todo-list {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 3px 4px 14px 2px #f3f1f9;
+}
+
+button#save-button {
+  background: #e2f4ec;
+  border: 1px solid green;
+  color: green;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+  background: #e2f4ec;
+}
+
+button.fas.fa-pen {
+  border: 0;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  color: #9ba9b3;
+  background-color: #ebf0f4;
+}
+
+button.fas.fa-pen:hover {
+  color: #4c3d92;
+}
+
+button.fas.fa-trash {
+  border: 0;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  color: #9ba9b3;
+  background-color: #ebf0f4;
+}
+
+button.fas.fa-trash:hover {
+  color: #ff6b6b;
+}
+
+.complete-btn {
+  color: #5ea58e !important;
+  background-color: #e3f5ed !important;
+  border-radius: 1rem !important;
+  padding: 2px 18px 4px !important;
+}
+
+.complete-btn:hover {
+  color: #e3f5ed !important;
+  background-color: #5ea58e !important;
+}
